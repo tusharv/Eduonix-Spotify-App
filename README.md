@@ -1,3 +1,10 @@
+# Changes 
+`main.ts` - No Update Required in this file, keep it as it is
+`app.route.ts` - Use Updated Method and Import call
+`app.module.ts` - Use Updated Method and Import call
+`app.components.ts` - Use Updated Import call and no need for precompile now
+
+
 # Angular 2 QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
 
