@@ -4,13 +4,14 @@ import { routing, appRoutingProviders } from './app.route';
 import { AppComponent }  from './app.component';
 import { AboutComponent } from './about/about.component';
 import { SearchComponent } from './search/search.component';
+import { ArtistComponent } from './artist/artist.component';
 import { FormsModule }   from '@angular/forms';
 
 
 @NgModule({
   imports: [ BrowserModule, routing, FormsModule],
   providers: [ appRoutingProviders ],
-  declarations: [ AppComponent, AboutComponent, SearchComponent],
+  declarations: [ AppComponent, AboutComponent, SearchComponent, ArtistComponent],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

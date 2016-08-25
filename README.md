@@ -22,6 +22,15 @@ Update file `app.module.ts`
 ###16 : Search Results
 No Change required, Working as per Video without any error
 
+###17 : Artist Component & Route
+If you are getting this error
+>NgModule AppModule uses ArtistComponent via "entryComponents" but it was neither declared nor imported! This warning will become an error after final.
+
+Update file `app.module.ts`
+>import { ArtistComponent } from './artist/artist.component';
+
+>declarations: [ AppComponent, AboutComponent, SearchComponent, ArtistComponent],
+
 
 # Angular 2 QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]

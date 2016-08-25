@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { SpotifyService } from '../services/spotify.service';
 import {Artist} from '../../Artist';
+import { ROUTER_DIRECTIVES } from '@angular/router';
 
 @Component({
     moduleId: module.id,
     selector: 'search',
     templateUrl: 'search.component.html',
-    providers: [SpotifyService]
+    providers: [SpotifyService],
+    directives: [ROUTER_DIRECTIVES]
 })
 export class SearchComponent { 
     searchStr:string;
@@ -20,7 +22,6 @@ export class SearchComponent {
         this._spotifyService.searchMusic(this.searchStr)
             .subscribe(res =>{
                 this.searchRes = res.artists.items; 
-                console.log(this.searchRes);
             })
     }
 }
