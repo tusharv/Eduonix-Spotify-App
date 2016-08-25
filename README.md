@@ -1,8 +1,22 @@
 # Changes 
+##14 : Navbar & Router Setup
 `main.ts` - No Update Required in this file, keep it as it is
+
 `app.route.ts` - Use Updated Method and Import call
+
 `app.module.ts` - Use Updated Method and Import call
+
 `app.components.ts` - Use Updated Import call and no need for precompile now
+
+##15 : Search Component & Service
+If you are getting this error
+>Unhandled Promise rejection: Template parse errors:
+>Can't bind to 'ngModel' since it isn't a known property of 'input'.
+
+Update file `app.module.ts`
+>import { FormsModule }   from '@angular/forms';
+
+>imports: [ BrowserModule, routing, FormsModule],
 
 
 # Angular 2 QuickStart Source
