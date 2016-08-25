@@ -19,8 +19,8 @@ Update file `app.module.ts`
 
 >imports: [ BrowserModule, routing, FormsModule],
 
-###16 : 16 : Search Results
-No Change Required
+###16 : Search Results
+No Change required, Working as per Video without any error
 
 
 # Angular 2 QuickStart Source
