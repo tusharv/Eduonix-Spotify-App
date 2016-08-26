@@ -34,6 +34,16 @@ Update file `app.module.ts`
 ###18:Artist Page & Album List
 No Change required, Working as per Video without any error
 
+###19 : Album Component & Route
+If you are getting this error
+>NgModule AppModule uses AlbumComponent via "entryComponents" but it was neither declared nor imported! This warning will become an error after final.
+
+Update file `app.module.ts`
+>import { AlbumComponent } from './album/album.component';
+
+>declarations: [ AppComponent, AboutComponent, SearchComponent, ArtistComponent,AlbumComponent],
+
+
 
 # Angular 2 QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
