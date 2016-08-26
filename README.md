@@ -31,6 +31,9 @@ Update file `app.module.ts`
 
 >declarations: [ AppComponent, AboutComponent, SearchComponent, ArtistComponent],
 
+###18:Artist Page & Album List
+No Change required, Working as per Video without any error
+
 
 # Angular 2 QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
